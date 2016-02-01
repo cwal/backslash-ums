@@ -44,9 +44,10 @@ $settings = [
 	'website_email'	=> '',
 	
 	// SMTP details
-	'smtp_host'		=> '',
-	'smtp_username'	=> '',
-	'smtp_password'	=> '',
-	'smtp_secure'	=> '',
-	'smtp_port'		=> ''
+	// To be used with PHPMailer, please see their documentation for more details https://github.com/PHPMailer/PHPMailer
+	'smtp_host'		=> '',	// Specify main and backup SMTP servers
+	'smtp_username'	=> '',	// SMTP username
+	'smtp_password'	=> '',	// SMTP password
+	'smtp_secure'	=> '',	// Enable TLS encryption, `ssl` also accepted
+	'smtp_port'		=> ''	// TCP port to connect to
 ];

@@ -3,10 +3,10 @@ Backslash UMS
 Backslash UMS is a User Management System built with the G\ micro-framework and Twitter Bootstrap. This User Management System has all the features necessary to quickly deploy web applications where users need to be able to login, register and manage their account.
 
 ##Installation
-Upload the necessary files to your server. Create a database and import users.sql from the "schema" folder. Open settings.php from the "app" folder and specify the necessary settings. Customize to your needs!
+Upload the necessary files to your server. Create a database and import users.sql from the "schema" folder. Open settings.php from the "app" folder and specify the necessary settings (database connection, website details, email (SMTP) details). Customize to your needs!
 
 ##Creating Admin User
-To create the admin user please register as a user would (with a valid email address), confirm and log in to your account. The modify the "is_admin" value from 0 to 1 in the "users" table of your database. Once this is done the first time you can manage all users from the "account" page when logged in as admin.
+To create the admin user please register as a user would (with a valid email address), confirm your account from the email in your inbox and log in to your account. Then modify the "is_admin" value from 0 to 1 in the "users" table of your database. Once this is done the first time you can manage all users from the "account" page when logged in as admin.
 
 =
 

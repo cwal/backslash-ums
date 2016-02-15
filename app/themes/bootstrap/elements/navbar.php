@@ -21,6 +21,7 @@
             <li class="<?php echo strtolower(G\Handler::getRoute(false)) == 'account' ? 'active' : ''; ?>"><a href="<?php echo G\get_base_url('account'); ?>">Account</a></li>
             <li><a href="<?php echo G\get_base_url('logout'); ?>">Logout</a></li>
             <?php endif; ?>
+            <li><a href="https://github.com/cwal/backslash-ums" target="_blank">Download at Github</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
